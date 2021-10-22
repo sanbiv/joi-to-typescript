@@ -9,10 +9,6 @@ import { convertSchemaInternal } from './analyseSchemaFile';
 
 export { Settings }
 
-const test = async (who: string): Promise<string> => {
-  return 'Ciao ' + who; 
-}
-
 /**
  * Apply defaults to the Partial Settings parameter
  *
